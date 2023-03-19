@@ -1,0 +1,103 @@
+*,
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #272727;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-size: 33px;
+}
+
+p {
+  opacity: 63%;
+  font-size: 14px;
+  margin-bottom: 33px;
+  line-height: 1.2;
+}
+
+strong {
+  color: red;
+}
+
+.container {
+  max-width: 400px;
+  margin: 33px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 0 12px;
+}
+
+.form {
+  margin: 20px 0;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  padding: 9px 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 21px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+button {
+  background-color: #3690ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #3690ff;
+  opacity: 81%;
+}
+
+#result {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: #3690ff;
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+.row {
+  padding-top: 21px;
+}
+
+.row > p {
+  margin-bottom: 9px;
+}
+
+.row > p:nth-child(1) {
+  font-style: italic;
+  opacity: 36%;
+  font-size: 12px;
+}
