@@ -42,8 +42,8 @@ function calculateNumber(name) {
 
   // Kalkulasi SUM karakter nama
   let sum = 0;
-  for (let i = 0; i < name.length; i++) {
-    const letter = name.charAt(i);
+  for (let i = 0; i < lowerName.length; i++) {
+    const letter = lowerName.charAt(i);
     if (letter === " " || letter === "." || letter === "," || letter === "-")
       continue; // Skip
     const charCode = letter.charCodeAt(0) - 96;
